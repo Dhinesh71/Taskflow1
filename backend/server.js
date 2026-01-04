@@ -13,7 +13,8 @@ const allowedOrigins = [
     "http://localhost:8080",
     "http://localhost:5173",
     process.env.FRONTEND_URL,
-    "https://taskflow-ten-mu.vercel.app"
+    "https://taskflow-ten-mu.vercel.app",
+    "https://taskflow-demo-nu.vercel.app"
 ].filter(Boolean);
 
 app.use(cors({
